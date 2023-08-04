@@ -11,6 +11,11 @@
 		EF23C5092A7C786D00C3726D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23C5082A7C786D00C3726D /* ContentView.swift */; };
 		EF23C50B2A7C786E00C3726D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF23C50A2A7C786E00C3726D /* Assets.xcassets */; };
 		EF23C50E2A7C786E00C3726D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF23C50D2A7C786E00C3726D /* Preview Assets.xcassets */; };
+		EF23C5152A7C795900C3726D /* BubbleLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23C5142A7C795900C3726D /* BubbleLevel.swift */; };
+		EF23C5172A7C79BA00C3726D /* BubbleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23C5162A7C79BA00C3726D /* BubbleExtension.swift */; };
+		EF23C5192A7C79DF00C3726D /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23C5182A7C79DF00C3726D /* LevelView.swift */; };
+		EF23C51B2A7C7A0100C3726D /* MotionDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23C51A2A7C7A0100C3726D /* MotionDetection.swift */; };
+		EF23C51D2A7C7A2300C3726D /* OrientationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23C51C2A7C7A2300C3726D /* OrientationDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		EF23C5082A7C786D00C3726D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF23C50A2A7C786E00C3726D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF23C50D2A7C786E00C3726D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF23C5142A7C795900C3726D /* BubbleLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevel.swift; sourceTree = "<group>"; };
+		EF23C5162A7C79BA00C3726D /* BubbleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleExtension.swift; sourceTree = "<group>"; };
+		EF23C5182A7C79DF00C3726D /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		EF23C51A2A7C7A0100C3726D /* MotionDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetection.swift; sourceTree = "<group>"; };
+		EF23C51C2A7C7A2300C3726D /* OrientationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				EF23C5062A7C786D00C3726D /* Bubble_LevelApp.swift */,
 				EF23C5082A7C786D00C3726D /* ContentView.swift */,
+				EF23C5142A7C795900C3726D /* BubbleLevel.swift */,
+				EF23C5162A7C79BA00C3726D /* BubbleExtension.swift */,
+				EF23C5182A7C79DF00C3726D /* LevelView.swift */,
+				EF23C51A2A7C7A0100C3726D /* MotionDetection.swift */,
+				EF23C51C2A7C7A2300C3726D /* OrientationDataView.swift */,
 				EF23C50A2A7C786E00C3726D /* Assets.xcassets */,
 				EF23C50C2A7C786E00C3726D /* Preview Content */,
 			);
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF23C5092A7C786D00C3726D /* ContentView.swift in Sources */,
+				EF23C51D2A7C7A2300C3726D /* OrientationDataView.swift in Sources */,
+				EF23C5172A7C79BA00C3726D /* BubbleExtension.swift in Sources */,
 				EF23C5072A7C786D00C3726D /* Bubble_LevelApp.swift in Sources */,
+				EF23C5152A7C795900C3726D /* BubbleLevel.swift in Sources */,
+				EF23C5192A7C79DF00C3726D /* LevelView.swift in Sources */,
+				EF23C51B2A7C7A0100C3726D /* MotionDetection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
